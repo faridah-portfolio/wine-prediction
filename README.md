@@ -12,9 +12,9 @@ Wine quality assessment is traditionally a manual, expert-driven process. This p
 
 Three classification models are trained, evaluated, and compared to identify which chemical features most strongly influence perceived quality, and which algorithm generalizes best to unseen data.
 
-**Dataset:** [Wine Quality Dataset – Kaggle](https://www.kaggle.com/datasets/yasserh/wine-quality-dataset) (derived from the UCI Machine Learning Repository, red wine variant)
 
-> **Note:** The notebook runs end-to-end out of the box using a synthetic dataset built to mirror the statistical distribution of the real UCI red wine data. To reproduce results on the original dataset, download `WineQT.csv` or `winequality-red.csv` from Kaggle/UCI and follow the instructions in Section 2 of the notebook.
+![github link](https://github.com/faridah-portfolio/wine-prediction/blob/45a429b55a623560d2ada702b5c1f66b8b2c6d24/FARIDA_Wine_Quality_Prediction.ipynb)
+
 
 ## Models
 
@@ -59,25 +59,6 @@ Three algorithms were selected to represent distinct modeling approaches — an 
 | Data Handling | pandas, NumPy |
 | Visualization | Matplotlib, Seaborn |
 | Machine Learning | scikit-learn (Random Forest, SGD Classifier, SVC) |
-
-## Getting Started
-
-**1. Clone the repository**
-```bash
-git clone <repository-url>
-cd wine-quality-prediction
-```
-
-**2. Install dependencies**
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
-```
-
-**3. Run the notebook**
-
-Open `FARIDA_Wine_Quality_Prediction.ipynb` in Jupyter Notebook or Google Colab and run all cells. The notebook uses synthetic data by default, so no external files are required to get started.
-
-To use the original dataset, download it from Kaggle or UCI and follow the instructions in Section 2 of the notebook.
 
 ## Project Structure
 
